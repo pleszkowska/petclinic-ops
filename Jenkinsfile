@@ -30,7 +30,7 @@ pipeline {
                 bat '.\\mvnw.cmd clean package'
             }
         }
-        stage('Test"){
+        stage('Test'){
               steps { 
                   bat '.\\mvnw.cmd test'
               }
